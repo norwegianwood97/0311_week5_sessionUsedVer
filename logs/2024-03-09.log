@@ -1,0 +1,6 @@
+2024-03-09 14:13:34 [Winston 연습 어플리케이션] info: Method: POST, URL: /api/tables, Status: 201, Duration: 101ms
+2024-03-09 14:13:41 [Winston 연습 어플리케이션] info: Method: GET, URL: /api/tables, Status: 200, Duration: 9ms
+2024-03-09 14:16:00 [Winston 연습 어플리케이션] info: Method: GET, URL: /api/tables, Status: 200, Duration: 19ms
+2024-03-09 14:17:27 [Winston 연습 어플리케이션] info: Method: GET, URL: /api/tables, Status: 200, Duration: 18ms
+2024-03-09 14:18:15 [Winston 연습 어플리케이션] info: Method: GET, URL: /api/tables, Status: 200, Duration: 18ms
+2024-03-09 14:18:53 [Winston 연습 어플리케이션] info: Method: GET, URL: /api/tables, Status: 200, Duration: 25ms

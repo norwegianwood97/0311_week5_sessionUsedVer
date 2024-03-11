@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\jhcho\\OneDrive\\바탕 화면\\sparta\\main_course\\0307_week5_hw\\lv.5\\logs\\error\\.a09f7cbb78501684fde9822bf477b06ef4c00f64-audit.json",
+    "files": [
+        {
+            "date": 1709796549079,
+            "name": "C:\\Users\\jhcho\\OneDrive\\바탕 화면\\sparta\\main_course\\0307_week5_hw\\lv.5\\logs\\error\\2024-03-07.error.log",
+            "hash": "72706de803aac3bf8fee5fca5a039dd25838297ac7e320ea4d964a025a1deb01"
+        },
+        {
+            "date": 1709960629608,
+            "name": "C:\\Users\\jhcho\\OneDrive\\바탕 화면\\sparta\\main_course\\0307_week5_hw\\lv.5\\logs\\error\\2024-03-09.error.log",
+            "hash": "e7312e65b46256a301a9ad526404ea64517485cc0ead1aa75075acb1be4065d1"
+        },
+        {
+            "date": 1710079915057,
+            "name": "C:\\Users\\jhcho\\OneDrive\\바탕 화면\\sparta\\main_course\\0307_week5_hw\\lv.5\\logs\\error\\2024-03-10.error.log",
+            "hash": "6185aedde1a03d4ffdf9449753a3c44a3561275214ab12e197462d1e1a2599d8"
+        },
+        {
+            "date": 1710150453831,
+            "name": "C:\\Users\\jhcho\\OneDrive\\바탕 화면\\sparta\\main_course\\0307_week5_hw\\lv.5\\logs\\error\\2024-03-11.error.log",
+            "hash": "ae5ab8fd614c5334370a854b782ef45fded110acfea9749d1014b675217375fa"
+        }
+    ],
+    "hashType": "sha256"
+}

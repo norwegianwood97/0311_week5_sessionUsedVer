@@ -1,0 +1,90 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// 카테고리 테이블
+model Categories {
+  categoryId  Int @id @default(autoincrement()) 
+  name        String
+  order       Int 
+  deletedAt   DateTime?
+  
+  menus       Menus[]
+  @@map("Categories")
+}
+
+// 메뉴 테이블
+model Menus{
+  menuId      Int @id @default(autoincrement()) 
+  name        String 
+  description String @db.Text 
+  image       String 
+  price       Int 
+  order       Int 
+  quantity    Int
+  status      Status @default(FOR_SALE)
+  categoryId  Int
+  deletedAt   DateTime?
+
+  category Categories @relation(fields:[categoryId], references:[categoryId], onDelete: Cascade)
+  orders Orders[]
+
+  @@map("Menus")
+}
+// Menu 테이블의 status 열을 매핑하기 위한 Enum 정의
+enum Status{
+  FOR_SALE
+  SOLD_OUT
+}
+
+
+  
+
+model Orders{
+  OrderId     Int @id @default(autoincrement())
+  nickname    String
+  OrderType   OrderType @default(PENDING)
+  quantity    Int
+  createdAt  DateTime @default(now())
+  totalPrice  Int
+  
+  menuId      Int
+  userId      Int
+  deletedAt   DateTime?
+
+  order_menu Menus @relation(fields: [menuId], references: [menuId], onDelete: Cascade) 
+  order_user Users @relation(fields: [userId], references: [userId], onDelete: Cascade)
+
+  @@map("Orders")
+}
+enum OrderType{
+  PENDING
+  ACCEPTED
+  CANCEL
+}
+
+
+
+
+model Users {
+  userId Int @id @default(autoincrement()) 
+  nickname String 
+  password String 
+  usertype Usertype @default(CUSTOMER) 
+  
+  deletedAt   DateTime?
+
+  orders Orders[]
+  @@map("Users")
+}
+// Users 테이블의 usertype 열을 매핑하기 위한 Enum 정의
+enum Usertype{
+  CUSTOMER
+  OWNER
+}

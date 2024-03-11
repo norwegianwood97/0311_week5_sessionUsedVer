@@ -1,0 +1,36 @@
+2024-03-09 14:04:44 [Winston 연습 어플리케이션] error: uncaughtException: connect is not defined
+ReferenceError: connect is not defined
+    at file:///C:/Users/jhcho/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/sparta/main_course/0307_week5_hw/lv.5/src/app.js:30:23
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:328:13)
+2024-03-09 14:05:25 [Winston 연습 어플리케이션] error: uncaughtException: error is not defined
+ReferenceError: error is not defined
+    at file:///C:/Users/jhcho/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/sparta/main_course/0307_week5_hw/lv.5/src/app.js:36:17
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:328:13)
+2024-03-09 14:09:56 [Winston 연습 어플리케이션] error: uncaughtException: connect is not defined
+ReferenceError: connect is not defined
+    at file:///C:/Users/jhcho/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/sparta/main_course/0307_week5_hw/lv.5/src/app.js:33:5
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\jhcho\OneDrive\바탕 화면\sparta\main_course\0307_week5_hw\lv.5\node_modules\express\lib\router\index.js:328:13)

@@ -1,0 +1,2 @@
+2024-03-10 23:11:59 [Winston 연습 어플리케이션] info: Method: GET, URL: /, Status: 404, Duration: 3ms
+2024-03-10 23:12:07 [Winston 연습 어플리케이션] info: Method: GET, URL: /api, Status: 404, Duration: 1ms

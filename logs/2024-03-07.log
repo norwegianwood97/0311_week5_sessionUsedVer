@@ -1,0 +1,8 @@
+2024-03-07 16:30:30 [Winston 연습 어플리케이션] info: Method: POST, URL: /api/sign-up, Status: 500, Duration: 108ms
+2024-03-07 16:33:03 [Winston 연습 어플리케이션] info: Method: POST, URL: /sign-up, Status: 201, Duration: 169ms
+2024-03-07 16:33:05 [Winston 연습 어플리케이션] info: Method: POST, URL: /api-sign-in, Status: 400, Duration: 8ms
+2024-03-07 16:33:11 [Winston 연습 어플리케이션] info: Method: POST, URL: /, Status: 200, Duration: 53ms
+2024-03-07 16:33:13 [Winston 연습 어플리케이션] info: Method: POST, URL: /categories, Status: 201, Duration: 47ms
+2024-03-07 16:33:15 [Winston 연습 어플리케이션] info: Method: GET, URL: /categories/, Status: 200, Duration: 11ms
+2024-03-07 16:33:19 [Winston 연습 어플리케이션] info: Method: POST, URL: /api/categories/1/menus, Status: 500, Duration: 35ms
+2024-03-07 16:33:36 [Winston 연습 어플리케이션] info: Method: POST, URL: /categories/1/menus, Status: 400, Duration: 3ms
